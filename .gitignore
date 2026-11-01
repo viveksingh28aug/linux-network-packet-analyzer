@@ -1,0 +1,35 @@
+# Binaries
+sniffer
+test_runner
+test_runner_sanitized
+test_runner_ubsan
+benchmark
+a.out
+
+# Object & Library Files
+*.o
+*.a
+*.so
+
+# Build Directory
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+CTestTestfile.cmake
+
+# Logs and PCAP traces
+*.log
+*.pcap
+sniff.log
+test_analysis.log
+
+# Temporary test binaries
+/tmp/*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*~
